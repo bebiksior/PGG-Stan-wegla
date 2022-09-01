@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "PGG Sprawdź Dostępnosć",
+    "description": "Rozszerzenie które wyciąga ze strony PGG informacje o dostępności węgla i przekazuje je dalej :)",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://sklep.pgg.pl/"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
